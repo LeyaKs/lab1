@@ -50,11 +50,11 @@ int main() {
             // delete[] result;
         } while(check);
     }
-    catch(const std::exception& e) {
-        std::wcerr << e.what() << std::endl;
-    }
     catch(const std::runtime_error& e) {
         std::wcerr << "Input failed: " << e.what() << std::endl;
+    }
+    catch(const std::exception& e) {
+        std::wcerr << e.what() << std::endl;
     }
     return 0;
 }

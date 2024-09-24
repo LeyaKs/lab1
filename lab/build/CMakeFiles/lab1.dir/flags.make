@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/s_koleso_m/oop2024/lab1/src
+CXX_INCLUDES = -I/home/s_koleso_m/oop2024/lab1/lab/src
 
-CXX_FLAGS = -Wall -Wextra -g -g -std=gnu++20
+CXX_FLAGS = -Wall -Wextra -g -std=gnu++20
 

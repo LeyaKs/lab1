@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/s_koleso_m/oop2024/lab1/main.cpp" "CMakeFiles/lab1.dir/main.cpp.o" "gcc" "CMakeFiles/lab1.dir/main.cpp.o.d"
-  "/home/s_koleso_m/oop2024/lab1/src/funcs.cpp" "CMakeFiles/lab1.dir/src/funcs.cpp.o" "gcc" "CMakeFiles/lab1.dir/src/funcs.cpp.o.d"
-  "/home/s_koleso_m/oop2024/lab1/src/input.cpp" "CMakeFiles/lab1.dir/src/input.cpp.o" "gcc" "CMakeFiles/lab1.dir/src/input.cpp.o.d"
+  "/home/s_koleso_m/oop2024/lab1/lab/main.cpp" "CMakeFiles/lab1.dir/main.cpp.o" "gcc" "CMakeFiles/lab1.dir/main.cpp.o.d"
+  "/home/s_koleso_m/oop2024/lab1/lab/src/funcs.cpp" "CMakeFiles/lab1.dir/src/funcs.cpp.o" "gcc" "CMakeFiles/lab1.dir/src/funcs.cpp.o.d"
+  "/home/s_koleso_m/oop2024/lab1/lab/src/input.cpp" "CMakeFiles/lab1.dir/src/input.cpp.o" "gcc" "CMakeFiles/lab1.dir/src/input.cpp.o.d"
   )
 
 # Targets to which this target links.

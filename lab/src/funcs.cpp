@@ -52,10 +52,11 @@ namespace MySpace {
 
     std::wstring division(const std::wstring& str) {
         std::wstring result = L"";
+        std::wstring er = L"";
         int begin = 0, flag = 0, distance = 0, end = 0, check = 0;
         for (int i = 0; i < (int)str.size(); ++i) {
             check = isVowel(str[i]);
-            if (check == 2) return result;
+            if (check == 2) return er;
             else if (check == 1)
                 ++distance;
             else {
@@ -109,10 +110,8 @@ namespace MySpace {
         
         size_t len = result.size() + 1;
         wchar_t* res_ptr = new wchar_t[len];
-        if (!res_ptr) {
-            return nullptr;
-        }
+        if (!res_ptr) return nullptr;
         wcscpy(res_ptr, result.c_str());
-         return res_ptr;
+        return res_ptr;
     }
 }
