@@ -1,1 +1,1 @@
-# lab1
+This project converts the string by inserting "-" between the syllables.
