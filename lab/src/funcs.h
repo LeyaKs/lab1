@@ -1,3 +1,9 @@
+/**
+ * \file
+ * \brief Header file with description of application functions
+ */
+
+
 #pragma once
 
 namespace MySpace {

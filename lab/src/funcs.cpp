@@ -1,3 +1,12 @@
+/**
+ * \file
+ * \brief File with namespace
+ * 
+ * This file contains the definitions of the namespace and the main
+functions used in the program
+ */
+
+
 #include <iostream>
 #include <string>
 #include "funcs.h"
@@ -6,7 +15,20 @@
 #define CONSONANT 1
 #define SYMBOL 2
 
+
+/**
+ * \namespace
+ * \brief Namespace with basic functions
+ */
+
 namespace MySpace {
+
+    /**
+     * \brief Checking the symbol
+     * \param letter
+     * \return Type of symbol
+     */
+
     int isVowel(const wchar_t letter) {
         std::wstring vowels(L"ёЁуУеЕыЫаАоОэЭяЯиИюЮ");
         std::wstring consonant(L"йЙцЦкКнНгГшШщЩзЗхХъЪфФвВпПрРлЛдДжЖчЧсСмМтТьЬбБ");
@@ -20,6 +42,13 @@ namespace MySpace {
         }
         return SYMBOL;
     }
+
+
+    /**
+     * \brief Division into syllables
+     * \param str Original line
+     * \return Result of splitting 
+     */
 
     std::wstring division(const std::wstring& str) {
         std::wstring result = L"";
@@ -45,6 +74,14 @@ namespace MySpace {
         result.insert(result.size(), str, begin, str.size() -  begin + 1);
         return result;
     }
+
+
+
+    /**
+     * \brief Overload of basic function
+     * \param str Original line
+     * \return Result of splitting 
+     */
 
     wchar_t* division(const wchar_t* str) {
         std::wstring str_t = str;
@@ -78,4 +115,4 @@ namespace MySpace {
         wcscpy(res_ptr, result.c_str());
          return res_ptr;
     }
-}  // namespace MySpace
+}

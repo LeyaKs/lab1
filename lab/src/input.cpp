@@ -1,5 +1,19 @@
+/**
+ * \file
+ * \brief File with description of input functions
+ */
+
+
 #include <iostream>
 #include <limits>
+
+
+
+/**
+ * \brief Input string
+ * \param flag
+ * \return str Resulting string
+ */
 
 std::wstring input(bool& flag) {
         std::wstring str;

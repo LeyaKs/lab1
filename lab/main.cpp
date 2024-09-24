@@ -1,7 +1,18 @@
+/**
+ * \file 
+ * \brief Main file
+ */
+
 #include <iostream>
 #include <string>
 #include "src/funcs.h"
 #include "src/input.h"
+
+/**
+ * \brief Main fuction with dialogue with the user
+ * 
+ * Function has a do while loop to continue working
+ */
 
 int main() {
     setlocale(LC_CTYPE, "");
