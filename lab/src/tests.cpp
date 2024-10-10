@@ -3,11 +3,15 @@
 #include <string>
 #include "funcs.h"
 
+using namespace MySpace;
+
 TEST_CASE(){
     std::wstring str = L"бубубу";
     std::wstring str1 = L"бу3бубу";
+    std::wstring str3 = L"";
     REQUIRE(MySpace::division(str) == L"бу-бу-бу");
     REQUIRE(MySpace::division(str1) == L"");
+    REQUIRE(MySpace::division(str3) == L"");
     size_t len = wcslen(L"ляляля") + 1;
     std::wstring res = L"ля-ля-ля";
     wchar_t* str2 = new wchar_t[len];

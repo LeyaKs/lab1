@@ -50,7 +50,7 @@ namespace MySpace {
      * \return Result of splitting 
      */
 
-    std::wstring division(const std::wstring& str) {
+    std::wstring division(const std::wstring &str) {
         std::wstring result = L"";
         std::wstring er = L"";
         int begin = 0, flag = 0, distance = 0, end = 0, check = 0;
